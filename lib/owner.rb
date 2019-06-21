@@ -3,7 +3,6 @@ class Owner
   attr_accessor :name, :pets
   
   @@all = []
- 
   
   def initialize(species)
     @@all << self 
